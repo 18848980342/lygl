@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>主页</title>
+	<link rel="stylesheet" href="less/home.css">
+	<link rel="stylesheet" href="less/global.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/seajs/dist/sea.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+</head>
+<body>
+	<div id="test1"></div>
+
+	<script>
+        seajs.config({
+            base: './'
+        });
+        seajs.use('config/config.js',function(main){
+            main.init();
+        });
+    </script>
+</body>
+</html>

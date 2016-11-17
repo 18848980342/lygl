@@ -1,0 +1,1 @@
+define(function(require, exports, module){return function(obj) {obj || (obj = {});var __t, __p = '', __e = _.escape;with (obj) {__p += '<div class="lygl-g-home">洛阳旅游指南</div>';}return __p}});

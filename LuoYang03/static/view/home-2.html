@@ -1,0 +1,33 @@
+<div class="wrapper">
+	<h2>热门游记</h2>
+    <div class="top">
+	    <span class="broadcast">
+	        <i class="horn"></i>写游记，赢大奖
+	    </span>
+	    <a href="#" class="note-btn"><i class="iconfont icon-comment"></i>发表游记</a>
+    </div>
+    <div class="summary">
+	    <a href="#" class="info" rel="nofollow" style="color: rgb(64, 64, 64);">
+	        <i class="array"></i>全部<span style="color: rgb(34, 194, 51);">32</span>篇游记
+	    </a>
+	</div>
+	<div class="module">
+	     ##for(var i = 0; i < note.length; i++ ){##
+		      <a href="#" class="item">
+		          <div class="pic">
+		              <img src="{{note[i].imgSrc}}" style="display: inline;">
+		          </div>
+		          <div class="detail">
+		              <h3>{{note[i].title}}</h3>
+		              <div class="content">{{note[i].detail}}</div>
+		              <div class="info clearfix">
+		                  <p class="name">{{note[i].from}}</p>
+		                  <p class="view"><i class="iconfont icon-look"></i>{{note[i].look}}</p>
+		                  <p class="comment"><i class="iconfont icon-message"></i>{{note[i].reply}}</p>
+		                  <p class="support not-support"><i class="iconfont icon-zan"></i><span class="count">{{note[i].count}}</span></p>
+		              </div>
+		          </div>
+			  </a>
+	     ##}##
+    </div>
+</div>

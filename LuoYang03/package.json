@@ -1,0 +1,28 @@
+{
+  "name": "bbt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-cmd-jst": "^0.1.6",
+    "gulp-connect": "^5.0.0",
+    "gulp-less": "^3.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zi-kang/Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zi-kang/Project/issues"
+  },
+  "homepage": "https://github.com/zi-kang/Project#readme"
+}
